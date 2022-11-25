@@ -10,4 +10,4 @@ char* strcpy(char* dest,const char* src)//dest:目的地 src:源头
 	}
 	return ret;//返回起始地址 
 }
-
+//远程仓库编辑：B19021417何林珂
