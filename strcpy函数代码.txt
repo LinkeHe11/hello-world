@@ -1,0 +1,13 @@
+//自己实现字符串拷贝函数
+char* strcpy(char* dest,const char* src)//dest:目的地 src:源头
+{
+	assert(dest);
+	assert(src);
+	char* ret = dest;//存dest起始地址
+	while (*dest++ = *src++)//循环到最后时 先将\0赋值 再停止循环
+	{
+		;
+	}
+	return ret;//返回起始地址 
+}
+
